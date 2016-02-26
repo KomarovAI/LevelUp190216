@@ -126,7 +126,7 @@ public class Main {
         }
         // || - логическое ИЛИ; дизъюнкция; логическая сумма
 
-        if (true && false || false && true);
+        if (true && false || false && true) ;
         // приоритет && > ||
 
         int x;
@@ -140,7 +140,7 @@ public class Main {
 
         sx = (short) d;//явное преобразование типов
         char ch = 'a';
-        System.out.println((int)ch);
+        System.out.println((int) ch);
 
 //        if (a < b) {
 //            System.out.println("a < b");
@@ -149,8 +149,6 @@ public class Main {
 //        } else {
 //            System.out.println("a == b");
 //        }
-
-
 
 //        if (a < b)
 //            System.out.println("min = "+a);
@@ -175,6 +173,8 @@ public class Main {
         x1 = -3+4i
         x2 = -3-4i
 
+        x1 = (-b+Math.sqrt(D))/(2*a)
+        x1 = -b/(2*a)
     4) Приведение типов
     5) Math:
         возведение в степень
