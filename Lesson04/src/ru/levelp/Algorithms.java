@@ -5,7 +5,7 @@ package ru.levelp;
  */
 public class Algorithms {
 
-    public int compare(String a, String b) {
+    public static int compare(String a, String b) {
         int minLength = Math.min(a.length(), b.length());
         for (int i = 0; i < minLength; i++) {
             if (a.charAt(i) < b.charAt(i)) {
@@ -24,7 +24,7 @@ public class Algorithms {
         return 0;
     }
 
-    public void sort(Student[] students) {
+    public static void sort(Student[] students) {
         for (int i = 0; i < students.length - 1; i++) {
             for (int j = 0; j < students.length - 1 - i; j++) {
                 if (compare(students[j].name, students[j + 1].name) == 1) {

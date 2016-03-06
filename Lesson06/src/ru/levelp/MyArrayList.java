@@ -4,7 +4,9 @@ package ru.levelp;
  * Created by vladimir on 04.03.16.
  */
 public class MyArrayList {
-    int[] values;
+    //private - доступ к полю/методу возможен только внутри класса,
+    //          в котором это поле/метод объявлено
+    private int[] values;
 
     public void add(int value) {
         if (values == null) {
